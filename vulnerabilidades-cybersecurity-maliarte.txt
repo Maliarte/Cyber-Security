@@ -1,0 +1,50 @@
+
+Encontrar vulnerabilidades de segurança
+
+Vulnerabilidades de segurança são qualquer tipo de defeito de software ou hardware. Após descobrirem uma vulnerabilidade, os usuários mal-intencionados tentam explorá-lo. Um exploit é o termo usado para descrever um programa escrito para utilizar uma vulnerabilidade conhecida. O ato de usar um exploit contra uma vulnerabilidade é conhecido como um ataque. O objetivo do ataque é ter acesso a um sistema, aos dados que ele hospeda ou a um recurso específico.
+
+Vulnerabilidades de software
+
+As vulnerabilidades de software são normalmente introduzidas por erros no código do aplicativo ou sistema operacional; apesar de todo o esforço das empresas em localizá-las e corrigi-las, é comum que novas vulnerabilidades surjam. A Microsoft, a Apple e outros fabricantes de sistema operacional lançam patches e atualizações quase todos os dias. As atualizações do aplicativo também são comuns. Os aplicativos, tais como navegadores da Web, aplicativos móveis e servidores da Web, são frequentemente atualizados pelas empresas responsáveis por eles.
+
+Em 2015, uma grande vulnerabilidade, chamada SYNful Knock, foi descoberta no Cisco IOS. Essa vulnerabilidade permitiu aos invasores obter o controle de roteadores empresariais, como os roteadores antigos Cisco 1841, 2811 e 3825. Os invasores conseguiram então monitorar toda a comunicação da rede e infectar outros dispositivos de rede. Tal vulnerabilidade foi introduzida no sistema quando uma versão alterada do IOS foi instalada nos roteadores. Para evitar isso, sempre verifique a integridade da imagem do IOS baixada e limite o acesso físico do equipamento somente ao pessoal autorizado.
+
+O objetivo das atualizações de software é sempre estar atualizado e evitar a exploração de vulnerabilidades. Enquanto algumas empresas têm equipes de testes de penetração dedicadas para pesquisar, localizar e corrigir vulnerabilidades de software, antes que elas possam ser exploradas, os pesquisadores de segurança de terceiros também são especializados em descobrir essas vulnerabilidades.
+
+O Project Zero do Google é um grande exemplo de tal prática. Depois de descobrir várias vulnerabilidades em diversos softwares de usuários finais, o Google formou uma equipe permanente dedicada para encontrar vulnerabilidades de software. A Pesquisa de Segurança do Google pode ser encontrada aqui.
+
+Vulnerabilidades de hardware
+
+Vulnerabilidades de hardware são frequentemente introduzidas por falhas de projeto de hardware. A memória RAM, por exemplo, consiste essencialmente em capacitores instalados muito próximos um do outro. Descobriu-se que, devido à proximidade, constantes mudanças aplicadas a um desses capacitores poderiam influenciar o vizinho. Com base nessa falha, foi criado um exploit chamado Rowhammer. Ao reescrever várias vezes a memória nos mesmos endereços, o exploit Rowhammer permite que os dados sejam recuperados de células próximas de memória de endereço, mesmo que as células estejam protegidas.
+
+As vulnerabilidades de hardware são específicas para modelos do dispositivo e geralmente não são exploradas por tentativas comprometedoras aleatórias. Embora os exploits de hardware sejam mais comuns em ataques altamente específicos, a proteção contra malware tradicional e uma segurança física são proteções suficientes para o usuário de todos os dias.
+
+
+
+Tipos de malware
+
+Abreviação de “Malicious Software” (software mal-intencionado), o malware é qualquer código que pode ser usado para roubar dados, ignorar controles de acesso, causar danos ou comprometer um sistema. Abaixo estão alguns tipos comuns de malware:
+
+Spyware – este malware é projetado para rastrear e espionar o usuário. O spyware frequentemente inclui rastreadores de atividade, coleta de toque de tela e captura de dados. Para tentar combater as medidas de segurança, o spyware quase sempre modifica as configurações de segurança. Muitas vezes, o spyware se junta ao software legítimo ou a cavalos de Troia.
+
+Adware – o software com suporte a anúncio é projetado para fornecer anúncios automaticamente. O adware é frequentemente instalado com algumas versões do software. Alguns tipos de adware são projetados para oferecer somente anúncios, mas também é comum que o adware venha com spyware.
+
+Bot- da palavra “robot”, um bot é o malware projetado para executar automaticamente a ação, geralmente on-line. Enquanto a maioria dos bots é inofensiva, uma utilização progressiva de bots mal-intencionados são os botnets. Vários computadores estão infectados com bots que são programados para esperar calmamente os comandos fornecidos pelo invasor.
+
+Ransomware – este malware é projetado para manter preso um sistema de computador, ou os dados incluídos nele, até que o pagamento seja feito. O ransomware normalmente funciona criptografando os dados no computador com uma chave desconhecida ao usuário. Outras versões do ransomware podem lançar mão das vulnerabilidades de sistemas específicos para bloquear o sistema. O ransomware é espalhado por um arquivo baixado ou alguma vulnerabilidade de software.
+
+Scareware – este é um tipo de malware projetado para persuadir o usuário a executar uma ação específica com base no medo. O scareware simula janelas pop-up que se assemelham às janelas de diálogo do sistema operacional. Essas janelas transmitem mensagens falsificadas que afirmam que o sistema está em risco ou precisa da execução de um programa específico para retornar à operação normal. Na realidade, nenhum problema foi avaliado ou detectado. Se o usuário concordar e executar o programa mencionado para a limpeza, seu sistema será infectado com malware.
+
+Rootkit – este malware é projetado para modificar o sistema operacional e criar um backdoor. Os invasores usam o backdoor para acessar o computador remotamente. A maioria dos rootkits utiliza as vulnerabilidades do software para escalonar privilégios e modificar arquivos de sistema. Também é comum os rootkits modificarem a computação forense do sistema e as ferramentas de monitoramento, o que os torna muito difíceis de ser detectados. Muitas vezes, um computador infectado por um rootkit deve ser apagado e reinstalado.
+
+Vírus - um vírus é um código executável mal-intencionado que é anexado a outros arquivos executáveis, muitas vezes programas legítimos. A maioria dos vírus necessita de ativação do usuário final e pode ser ativada em uma hora ou data específica. Os vírus podem ser inofensivos e apenas exibir uma imagem ou podem ser destrutivos, como os que modificam ou excluem dados. Os vírus também podem ser programados para se modificar e evitar a detecção. Agora, a maioria dos vírus é espalhada por unidades de USB, discos ópticos, compartilhamentos de rede ou e-mail.
+
+Cavalo de Troia - um Cavalo de Troia é um malware que realiza operações mal-intencionadas sob o pretexto de uma operação desejada. Esse código malicioso explora os privilégios do usuário que o executa. Muitas vezes, os Cavalos de Troia são encontrados em arquivos de imagem, arquivos de áudio ou jogos. Um Cavalo de Troia difere de um vírus porque está vinculado aos arquivos não executáveis.
+
+Worms – worms são códigos maliciosos que se replicam ao explorar, de forma independente, vulnerabilidades em redes. Os worms normalmente deixam a rede mais lenta. Enquanto um vírus requer um programa host para execução, os worms podem ser executados de modo autônomo. Exceto pela infecção inicial, eles não necessitam mais da participação do usuário. Após infectar um host, um worm pode ser transmitido muito rapidamente pela rede. Worms compartilham padrões similares. Todos eles habilitam uma vulnerabilidade, uma maneira de se propagar, e todos eles contêm uma carga.
+
+Os worms são responsáveis por alguns dos ataques mais devastadores na Internet. Como mostrado na Figura 1, em 2001, o worm Code Red infectou 658 servidores. Em 19 horas, o worm infectou mais de 300.000 servidores, conforme mostrado na Figura 2.
+
+Man-In-The-Middle (MitM) – o MitM permite que o invasor tenha o controle sobre um dispositivo sem o conhecimento do usuário. Com esse nível de acesso, o invasor pode interceptar e capturar informações do usuário antes de transmiti-las ao seu destino desejado. Os ataques MitM são amplamente utilizados para roubar informações financeiras. Muitos malwares e técnicas existem para fornecer aos invasores recursos de MitM.
+
+Man-In-The-Mobile (MitMo) – uma variação do Man-In-Middle, MitMo é um tipo de ataque usado para assumir o controle de um dispositivo móvel. Quando infectado, o dispositivo móvel pode ser instruído a extrair as informações confidenciais do usuário e enviá-las para os invasores. ZeuS, um exemplo de exploit com capacidades de MitMo, permite que os invasores capturem silenciosamente as mensagens de SMS de verificação de 2 passos enviadas para os usuários.
